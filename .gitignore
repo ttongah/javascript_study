@@ -1,0 +1,26 @@
+# 의존성 패키지
+node_modules/
+.pnp
+.pnp.js
+
+# 빌드 및 출력 폴더
+dist/
+build/
+.next/
+out/
+paper/
+
+# 환경 변수 및 설정 파일 (보안 주의)
+.env
+.env.local
+.env.*.local
+
+# 로그 파일
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS 및 IDE 설정
+.DS_Store
+Thumbs.db
+.vscode/
