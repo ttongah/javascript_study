@@ -15,3 +15,17 @@ console.log(typeof userKey);
 
 userKey="홍길동";
 console.log(typeof userKey) ;
+
+
+//  숫자 · 문자열 · 불리언 · `undefined` · `null` 'typeof' 출력하기
+const num = 123;
+const str = "sky";
+const bool = true;
+const undef = undefined;
+const empty = null;
+
+console.log(typeof num);   // "number"
+console.log(typeof str);   // "string"
+console.log(typeof bool);  // "boolean"
+console.log(typeof undef); // "undefined"
+console.log(typeof empty); // "object"
