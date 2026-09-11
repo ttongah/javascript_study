@@ -61,3 +61,10 @@ console.log(Boolean(0), typeof Boolean(0));
 
 console.log(Number('안녕'), typeof Number('안녕'));
 
+// 템플릿 리터럴 문장 조립하기
+const customerName="홍길동";
+const orderCount=3;
+
+console.log(`${customerName}님의 주문 ${orderCount}건`); //템플릿 리터럴 (Template Literal)
+console.log(customerName + '님의 주문' + orderCount + "건" ); // 문자열 연결
+

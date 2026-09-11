@@ -22,6 +22,10 @@
 - let : 변수가 가리키는 대상을 언제든 새로운 값으로 재할당 할수 있음
 - const : 변수가 처음 가리킨 참조 대상을 다른 것으로 다시 연결(재할당)하지 못하도록 잠금
 
+### "기본은 const로 시작하고, 코드를 작성하다가 재할당이 필요해지는 순간에만 let으로 변경."
+- 여러사람 협업할때, 실수로 기존 변수에 값을 덮어쓰는 사고 방지
+- 변수의 생명주기를 추적하지 않아도 되고, 신경 쓸 필요가 없음
+
 
 ### 값의 타입을 직접 바꿔보기
 console.log('42'+ 8); // 50
@@ -32,3 +36,9 @@ console.log(Boolean(1), typeof Boolean(1)); // true boolean
 console.log(Boolean(0), typeof Boolean(0)); // false boolean
 
 console.log(Number('안녕'), typeof Number('안녕')); // NaN number
+
+
+## 템플릿 리터럴 문장 조립하기 : 가독성이 좋음, 훨씬 읽기 쉬움
+
+console.log('${customerName}님의 주문 ${orderCount}건'); //템플릿 리터럴 (Template Literal)
+console.log(customerName + '님의 주문' + orderCount + "건" ); // 문자열 연결
