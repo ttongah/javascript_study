@@ -44,3 +44,9 @@ console.log(typeof unNum2);
 const constis=100;
 // constis = 30;
 console.log(constis);
+
+
+// let 값 재할당
+let letis=99;
+letis = 30;
+console.log(letis);
