@@ -21,3 +21,14 @@
 ###  let 값 재할당
 - let : 변수가 가리키는 대상을 언제든 새로운 값으로 재할당 할수 있음
 - const : 변수가 처음 가리킨 참조 대상을 다른 것으로 다시 연결(재할당)하지 못하도록 잠금
+
+
+### 값의 타입을 직접 바꿔보기
+console.log('42'+ 8); // 50
+console.log(Number('42') + 8); // 42 string
+
+console.log(String(42), typeof String(42)); // 42 string
+console.log(Boolean(1), typeof Boolean(1)); // true boolean
+console.log(Boolean(0), typeof Boolean(0)); // false boolean
+
+console.log(Number('안녕'), typeof Number('안녕')); // NaN number

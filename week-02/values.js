@@ -50,3 +50,14 @@ console.log(constis);
 let letis=99;
 letis = 30;
 console.log(letis);
+
+// 값의 타입을 직접 바꿔보기
+console.log('42'+ 8);
+console.log(Number('42') + 8);
+
+console.log(String(42), typeof String(42));
+console.log(Boolean(1), typeof Boolean(1));
+console.log(Boolean(0), typeof Boolean(0));
+
+console.log(Number('안녕'), typeof Number('안녕'));
+
