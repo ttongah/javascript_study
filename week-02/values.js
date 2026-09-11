@@ -39,3 +39,8 @@ let unNum2 = null ;
 console.log(unNum2);
 console.log(typeof unNum2);
 
+
+//  cont 에러내기
+const constis=100;
+// constis = 30;
+console.log(constis);

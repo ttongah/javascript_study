@@ -13,3 +13,7 @@
 ### `undefined`와 `null`을 각각 만들어보기
 - undefined (자바스크립트 엔진 자동 부여) : 아직 값이 없음을 알려주는 상태
 - null (개발자의 몫) : 값이 없음을 명시(의도적)
+
+### 'const' 변수 재할당 에러
+-TypeError: Assignment to constant variable.
+  -> 선언된 상수 변수에 새로운 값을 다시 할당(재할당)하려고 할 때 발생 에러
