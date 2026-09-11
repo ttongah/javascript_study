@@ -29,3 +29,13 @@ console.log(typeof str);   // "string"
 console.log(typeof bool);  // "boolean"
 console.log(typeof undef); // "undefined"
 console.log(typeof empty); // "object"
+
+// `undefined`와 `null`을 각각 만들어보기
+let unNum ;
+console.log(unNum);
+console.log(typeof unNum);
+
+let unNum2 = null ;
+console.log(unNum2);
+console.log(typeof unNum2);
+
