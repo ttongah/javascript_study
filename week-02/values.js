@@ -4,8 +4,8 @@ const userId=6;
 
 console.log(userAge+userId);
 
-console.log(3+4);  // 숫자 더하기
-console.log('3'+'4');  //  문자열 더하기
+console.log(3 + 4);  // 숫자 더하기
+console.log('3' + '4');  //  문자열 더하기
 
 
 //  typeof 공부하기
@@ -66,5 +66,5 @@ const customerName="홍길동";
 const orderCount=3;
 
 console.log(`${customerName}님의 주문 ${orderCount}건`); //템플릿 리터럴 (Template Literal)
-console.log(customerName + '님의 주문' + orderCount + "건" ); // 문자열 연결
+console.log(customerName + '님의 주문 ' + orderCount + "건" ); // 문자열 연결
 
