@@ -22,3 +22,18 @@
 [] 타입이 다른 값
 - '5' + 2 ==> 문자열 (string)
 - '5' - 2 ==> 숫자 (number)
+
+---
+
+ 1. 3 + 4 * 2        → 11  (typeof: number)  - 일치
+ 2. (3 + 4) * 2      → 14  (typeof: number) - 일치
+ 3. 10 / 3           → 3.3333333333333335  (typeof: number) - 불일치 (값 수정)
+ 4. 10 % 3           → 1  (typeof: number) -  일치
+ 5. '5' + 2          → "52"  (typeof: string) - 일치
+ 6. '5' - 2          → 3  (typeof: number) - 일치
+ 7. 5 >= 5           → true  (typeof: boolean) - 일치
+ 8. true && false    → false  (typeof: boolean) - 일치
+ 9. !0               → true  (typeof: boolean) - 일치
+10. 2 ** 10          → 1024  (typeof: number) - 일치
+
+
