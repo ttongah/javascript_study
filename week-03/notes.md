@@ -16,6 +16,28 @@
 3 === 4 = false boolean
 3 !== 4 = true boolean
 
+[] 논리연산자
+- && (and) : 양쪽 모두 true일 때만 true 반환
+ture && ture = true
+ture && false = false
+false && true = false
+false && false = false
+
+- || (or) : 둘 중 하나라도 true이면 true 반환
+ture || ture = true
+ture || false = true
+false || ture = true
+false || false = false
+
+! (NOT) : 불리언 값을 반대로 뒤집음 
+!logic3_1 ture -> false
+console.log('!0 =', !0 ) --> true
+console.log("!'' =", !'' ) --> true
+console.log("!null =", !null ) --> true
+console.log('!1 =', !1 ) --> false
+console.log('!-1 =', !-1 ) --> false
+console.log("!'oh' =", !'oh' ) --> false
+
 [] 복합 할당
 - +=가 무엇의 줄임인지 : 변수에 값을 더한 후 다시 할당 한다. 
 

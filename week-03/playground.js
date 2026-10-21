@@ -41,6 +41,18 @@ const logic8 = false;
 const both4 = logic7 && logic8;
 console.log('logic7 && logic8 =', both4);
 
+//  논리연산자 추가 (거짓,참)
+const logic9 = false;
+const logic10 = true;
+const both5 = logic9 && logic10;
+console.log('logic9 && logic10 =', both5);
+
+//  논리연산자 추가 (거짓.거짓)
+const logic11 = false;
+const logic12 = false;
+const both6 = logic11 && logic12;
+console.log('logic11 && logic12 =', both6);
+
 const logic2_1 = true;
 const logic2_2 = true;
 const both2_1 = logic2_1 || logic2_2;
@@ -55,6 +67,13 @@ const logic2_5 = false;
 const logic2_6 = false;
 const both2_3 = logic2_5 || logic2_6;
 console.log('logic2_5 || logic2_6 =', both2_3);
+
+//  논리연산자 추가 (거짓/참)
+const logic2_7 = false;
+const logic2_8 = true;
+const both2_4 = logic2_7 || logic2_8;
+console.log('logic2_7 || logic2_8 =', both2_4);
+
 
 const logic3_1 = true;
 console.log(!logic3_1);
@@ -92,3 +111,6 @@ console.log("'5' - 2 =", '5' - 2);
 
 console.log("'5' + 2 =", '5' + 2, typeof('5' + 2) );
 console.log("'5' - 2 =", '5' - 2, typeof('5' - 2));
+
+
+console.log("true  && true  :", true && true);
